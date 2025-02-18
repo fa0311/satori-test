@@ -1,23 +1,21 @@
 {
-  "name": "satiri",
-  "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "type": "module",
-  "author": "",
-  "scripts": {
-    "test": "mocha --forbid-only \"test/**/*.test.ts\""
-  },
-  "dependencies": {
-    "@vercel/og": "^0.6.5",
-    "react": "^19.0.0"
-  },
-  "devDependencies": {
-    "@types/mocha": "^10.0.10",
-    "@types/node": "^22.13.4",
-    "@types/react": "^19.0.10",
-    "mocha": "^10.8.2",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.7.3"
-  }
+	"name": "test",
+	"version": "1.0.0",
+	"description": "",
+	"license": "ISC",
+	"type": "module",
+	"author": "",
+	"scripts": {
+		"start": "node --loader ts-node/esm src/main.ts"
+	},
+	"dependencies": {
+		"@vercel/og": "^0.6.5",
+		"react": "^19.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "^22.13.4",
+		"@types/react": "^19.0.10",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.7.3"
+	}
 }

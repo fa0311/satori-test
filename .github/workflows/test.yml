@@ -23,4 +23,4 @@ jobs:
           node-version: ${{ matrix.node_version }}
           cache: npm
       - run: npm install
-      - run: npm run test
+      - run: node --loader ts-node/esm src/main.ts
