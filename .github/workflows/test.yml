@@ -22,4 +22,4 @@ jobs:
         with:
           node-version: ${{ matrix.node_version }}
       - run: npm install
-      - run: node --loader ts-node/esm src/main.ts
+      - run: node a.js
