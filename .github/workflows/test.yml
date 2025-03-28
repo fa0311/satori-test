@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         os: ["ubuntu-latest", "windows-latest"]
-        node_version: [lts/-1, lts/*, latest]
+        node_version: [lts/-1, lts/*, latest, 22.13.1, 22.12.0, 22.11.0, 22.10.0, 22.9.0, 22.8.0, 22.7.0, 22.6.0]
       fail-fast: false
     runs-on: ${{ matrix.os }}
     steps:
