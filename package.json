@@ -9,7 +9,7 @@
 		"start": "node --loader ts-node/esm src/main.ts"
 	},
 	"dependencies": {
-		"@vercel/og": "^0.6.5",
+		"@vercel/og": "^0.6.8",
 		"react": "^19.0.0"
 	},
 	"devDependencies": {
